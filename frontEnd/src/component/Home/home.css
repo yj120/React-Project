@@ -1,0 +1,47 @@
+.main{
+    display: flex;
+    flex-direction:column;
+}
+
+.channel{
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    border-style: groove;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: rgba(128, 128, 128, 0.417);
+    
+}
+
+.channel button{
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border-color: rgba(224, 224, 189, 0.25);
+    
+    
+}
+
+
+.channel button:active{
+    background-color: rgba(4, 94, 145, 0.492);
+    color: white;
+}
+
+.view{
+    border-style: groove;
+    border-radius: 10px;
+    margin: 0 0 10px 0;
+    background-color: aliceblue;
+    border-style: groove;
+
+}
+
+.attend{
+    border-style: groove;
+    border-radius: 10px;
+    background-color: aliceblue;
+    border-style: groove;
+}
+
